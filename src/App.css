@@ -63,7 +63,6 @@ nav {
 }
 .form {
   width: 90%;
-  height: 502px;
   display: flex;
   flex-direction: column;
   padding: 20px;
@@ -88,8 +87,8 @@ input {
   color: #f8f9fa;
   box-sizing: border-box;
   border-radius: 4px;
-  width: 329.93px;
-  height: 48px;
+  width: 100%;
+  height: 15%;
   margin-top: 20px;
   align-self: center;
   margin-bottom: 20px;
@@ -136,11 +135,18 @@ label {
 button {
   justify-content: center;
   align-self: center;
-  width: 329.93px;
-  height: 48px;
+  width: 100%;
+  height: 15%;
   background-color: #ff577f;
   border: 1.2182px solid #ff577f;
   border-radius: 4.06066px;
+}
+.bt-cadastro {
+  width: 90%;
+  height: 8%;
+}
+.bt-cadastro-signup {
+  height: 5vh;
 }
 button:hover {
   background-color: #ff427f;
@@ -161,6 +167,10 @@ div {
   display: flex;
   flex-direction: column;
   border-radius: 4px;
+}
+.container {
+  width: 30%;
+  height: 60vh;
 }
 ul {
   list-style: none;
@@ -215,6 +225,7 @@ ul {
 }
 .form-techs {
   display: flex;
+  height: 30vh;
   flex-direction: column;
   padding: 30px;
 }
@@ -224,4 +235,5 @@ ul {
 .input-modal {
   align-self: center;
   width: 100%;
+  height: 30%;
 }

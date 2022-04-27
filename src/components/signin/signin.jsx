@@ -68,7 +68,9 @@ function Signin({ authenticated, setAuthenticated, setUsuario }) {
           <button type="submit">Entrar</button>
         </form>
         <label className="texto-detalhe">Ainda não possui uma conta?</label>
-        <button onClick={() => history.push("/signup")}>Cadastre-se</button>
+        <button className="bt-cadastro" onClick={() => history.push("/signup")}>
+          Cadastre-se
+        </button>
       </div>
     </>
   );

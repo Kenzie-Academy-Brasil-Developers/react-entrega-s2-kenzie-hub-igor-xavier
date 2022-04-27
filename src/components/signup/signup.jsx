@@ -102,7 +102,9 @@ function Signup({ authenticated }) {
               Terceiro módulo
             </option>
           </select>
-          <button type="submit">Cadastrar</button>
+          <button className="bt-cadastro-signup" type="submit">
+            Cadastrar
+          </button>
         </form>
       </div>
     </>
