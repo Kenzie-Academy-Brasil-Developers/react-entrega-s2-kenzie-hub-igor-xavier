@@ -87,7 +87,7 @@ function Signup({ authenticated }) {
           <input
             placeholder="Digite novamente sua senha"
             type="password"
-            {...register("ConfirmPassword")}
+            {...register("confirmPassword")}
           />
           <p className="error">{errors.confirmPassword?.message}</p>
           <label>Selecionar módulo</label>
